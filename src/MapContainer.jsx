@@ -58,7 +58,7 @@ const MapContainer = () => {
   };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyCk6RovwH7aF8gjy1svTPJvITZsWGA_roU">
+    <LoadScript googleMapsApiKey="Your_API_KEY">
       <GoogleMap
         mapContainerStyle={{ width: "100%", height: "400px" }}
         center={mapOptions.center}
